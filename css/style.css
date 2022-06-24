@@ -1,0 +1,150 @@
+/* основные стили  */
+
+/*  ХЕДЕР  */
+.header__nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+}
+
+.hedaer__tel {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color:black;
+}
+
+/* СЕКЦИЯ НОМЕР 1 */
+.content {
+    margin: 20px 0 20px 10px;
+    font-family: 'Joan', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+    
+
+.content__container {
+    width: 900px;
+    height: 450px;
+    pad: 0 15px;
+    padding: 40px 20px 40px 20px;
+    background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);
+    border: 10px solid black;
+
+}
+    
+/* СЕКЦИЯ НОМЕР 2  */
+.info {
+    margin: 0 0 20px 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+    
+.info__container {
+    width: 60%;
+    padding: 20px 200px  20px 200px;
+    background-color:bisque;
+    border: 4px double rgb(255, 0, 0);
+   
+}
+
+.info__text {
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+
+
+/* СЕКЦИЯ НОМЕР 3 */
+.entity {
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.entity__container {
+    width: calc(100% - 30px);
+    padding: 70px 100px  70px 100px;
+    background-color:rgb(57, 149, 154);
+    border: 20px dashed rgb(208, 68, 199);
+}
+
+.entity__title {
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0,0,0,0.5)
+}
+
+
+/* ПОДВАЛИЩЕ  */
+
+
+
+.footer__nav a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 10px 0 10px;
+}
+
+/* ABOUT ME  */
+
+.about__header {
+    font-family: 'Joan', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.about__title  {
+    color: rgb(136, 172, 174);
+}
+
+.about__text {
+    margin: 20px 10px 20px 10px;
+    color: blueviolet;
+}
+
+.about__title__hobby {
+    color:aqua;
+}
+
+.about__list {
+    color:blue;
+    list-style-type:decimal-leading-zero;
+}
+
+.about__img {
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 340px
+}
+
+/* CONTACTS  */
+
+.contacts__header {
+    background-color:rgb(94, 92, 92);
+}
+
+.contacts__list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(55, 233, 6, 0.505);
+    list-style:lower-latin;
+}
+ 
+
+
+
+
+
+
+
+
+
